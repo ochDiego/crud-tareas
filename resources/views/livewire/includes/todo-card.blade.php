@@ -52,7 +52,7 @@
             </button>
         </div>
     </div>
-    <span class="text-xs text-gray-500"> {{ $todo->created_at->format('d-m-Y H:m:s') }} </span>
+    <span class="text-xs text-gray-500"> {{ $todo->created_at->format('d-m-Y H:i:s') }} </span>
     <div class="mt-3 text-xs text-gray-700">
 
         @if ($editingTodoID == $todo->id)
